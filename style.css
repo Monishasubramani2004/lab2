@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  margin: 0;
+  padding: 0;
+}
+
+.login-container, .form-container {
+  width: 300px;
+  margin: 100px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 0 10px gray;
+}
+
+input, button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+button {
+  background-color: #3498db;
+  color: white;
+  border: none;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+}
+.success {
+  color: green;
+  font-size: 14px;
+}
